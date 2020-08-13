@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Harmonize",
+  "description": "This extension helps decrease debt by allowing users to visualize frivolous spending",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
