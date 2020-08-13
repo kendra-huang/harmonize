@@ -9,8 +9,13 @@
    "default_icon": "icon.png",
    "default_popup": "popup.html"
   },
+  "background" :{
+      "scripts" : ["background.js"],
+      "persistant" : false
+  },
   "permissions": [
-   "activeTab"
+   "activeTab",
+   "https://harmonize-api-endpoint.herokuapp.com/*"
    ],
    "content_security_policy": "script-src 'self' https://www.gstatic.com/; object-src 'self'"
 
