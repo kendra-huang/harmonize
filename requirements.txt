@@ -1,0 +1,10 @@
+Flask==1.1.1
+flask-googlemaps==0.4.0
+yelpapi==2.4.0
+requests==2.11.1
+pymongo==3.10.1
+itsdangerous==1.1.0
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+Werkzeug==0.16.0
+dnspython==1.16.0
