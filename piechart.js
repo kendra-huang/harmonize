@@ -3,10 +3,10 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
     var data = google.visualization.arrayToDataTable([
         ['Task', 'Hours per Day'],
-        ['Loan Already Paid Off',  1000],
-        ['Value Unpaid',     1000],
+        ['Loan Already Paid Off',  3295],
+        ['Value Unpaid',     2091],
         ['Save Today',      50],
-        
+
     ]);
     var formatter = new google.visualization.NumberFormat({
         prefix: '$'
