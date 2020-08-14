@@ -1,13 +1,16 @@
-const body = document.getElementsByClassName('a-size-medium a-color-base sc-price sc-white-space-nowrap sc-product-price a-text-bold')[0]
+var money;
+
+// const body = document.getElementsByClassName('a-size-medium a-color-base sc-price sc-white-space-nowrap sc-product-price a-text-bold')[0]
+const body = document.getElementsByClassName('a-spacing-small')[0]
 
 const buttons = document.createElement('div');
 buttons.className = "mucho";
 buttons.id = "gracias";
-buttons.innerHTML = '<button type="button home-button" id="button1" >Want</button><button type="button contact-button" id="button2">Need</button>';
+buttons.innerHTML = '<button type="button" id="want_button" >Want</button><button type="button" id="need_button">Need</button>';
 body.append(buttons);
 
-const ayy = document.createElement('div');
-ayy.className = 'ayy';
-ayy.id = 'ayy';
-ayy.innerHTML = '<body>hulllawathav</body>';
-body.append(ayy);
+document.getElementById("want_button").addEventListener("click", function(){
+    money = document.getElementsByClassName("a-size-medium a-color-base sc-price sc-white-space-nowrap sc-product-price a-text-bold")[0].textContent;
+    console.log("diddiswork");
+    console.log(money);
+  });

@@ -1,6 +1,10 @@
+var money;
+
 google.charts.load("current", {packages:["corechart"]});
 google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
+    window.alert(money)
+    //console.log(money)
     var data = google.visualization.arrayToDataTable([
         ['Task', 'Hours per Day'],
         ['Loan Already Paid Off',  1000],
