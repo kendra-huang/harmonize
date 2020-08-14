@@ -16,10 +16,12 @@ document.addEventListener('DOMContentLoaded', function() {
               div.innerHTML += result;
           }
       }
+      
   };
-
+  
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "https://harmonize-api-endpoint.herokuapp.com/", true);
   xhr.onreadystatechange = callback;
   xhr.send();
 }, false);
+
