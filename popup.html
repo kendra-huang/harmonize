@@ -4,15 +4,24 @@
 <html>
   <head>
     <title>Harmonize</title>
-    <img src="harmonize.png" alt="Logo">
+    <p style="text-align: center;">
+        <img src="harmonize.png" alt="Logo">
+    </p>
     <script src="popup.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <style>
+    * {
+         font-family: 'Mulish', sans-serif;
+        }
+    </style>
   </head>
   <body>
-    <div id = "bankAccount">
+    <div id = "bankAccount" style="text-align: center;">
         <h3>Your current bank account balance is: </h3>
     </div>
-    <h3>If you save $x today, you will ultimately save an additional $X in future interest payments.</h3>
-    <p>
+    <div id = "loanData" style="text-align: center;">
+        <h3>If you save $50 today, you will ultimately save an additional $12 in future interest payments.</h3>
+    </div>
   </body>
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
