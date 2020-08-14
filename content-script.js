@@ -1,7 +1,8 @@
 
 const skipbutton = document.getElementsByClassName('a-box a-color-alternate-background sc-buy-box-inner-box')[0];
-for (var i = 0; i < 10000; i++) {
-const body = document.getElementsByClassName('a-size-medium a-color-base sc-price sc-white-space-nowrap sc-product-price a-text-bold')[i];
+var body = document.getElementsByClassName('a-size-medium a-color-base sc-price sc-white-space-nowrap sc-product-price a-text-bold');
+for (var i = 0; i < body.length; i++) {
+  body = document.getElementsByClassName('a-size-medium a-color-base sc-price sc-white-space-nowrap sc-product-price a-text-bold')[i];
   const buttons = document.createElement('div');
   buttons.className = "mucho";
   buttons.id = "gracias";
